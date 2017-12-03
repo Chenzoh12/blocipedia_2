@@ -17,6 +17,4 @@ RSpec.describe Wiki, type: :model do
             expect(wiki).to have_attributes(title: wiki.title, body: wiki.body, private: wiki.private)
         end
     end
-
-
 end
